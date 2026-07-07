@@ -1,0 +1,52 @@
+name: Feature request
+description: Suggest a Frunl Desktop improvement
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting an improvement. Please describe the workflow problem and avoid sharing private customer data or workspace details.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What are you trying to do, and where does Frunl Desktop fall short today?
+    validations:
+      required: true
+  - type: textarea
+    id: audience
+    attributes:
+      label: Who would benefit?
+      description: Describe the user, team, or workflow this would help.
+    validations:
+      required: true
+  - type: textarea
+    id: desired-outcome
+    attributes:
+      label: Desired outcome
+      description: What should Frunl Desktop make possible?
+    validations:
+      required: true
+  - type: textarea
+    id: workaround
+    attributes:
+      label: Current workaround
+      description: How do you handle this today, if at all?
+    validations:
+      required: false
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Add examples, screenshots, or constraints if useful. Do not include credentials, tokens, customer data, or private workspace details.
+    validations:
+      required: false
+  - type: checkboxes
+    id: redaction
+    attributes:
+      label: Public issue safety
+      options:
+        - label: I removed passwords, API keys, access tokens, customer data, and private workspace details from this request.
+          required: true

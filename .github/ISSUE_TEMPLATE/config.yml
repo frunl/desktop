@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Account-specific support
+    url: https://frunl.com
+    about: Email support@frunl.com for account, billing, or private support questions.
+  - name: Privacy or sensitive data concern
+    url: https://frunl.com/privacy
+    about: Email privacy@frunl.com instead of opening a public issue.
